@@ -13,7 +13,7 @@ import java.util.List;
 public class MainController {
 
     @Autowired
-    private UserService userservice;
+    UserService userservice;
 
     @GetMapping("/selectlist")
     public ResponseEntity<?> TestMethod() {
