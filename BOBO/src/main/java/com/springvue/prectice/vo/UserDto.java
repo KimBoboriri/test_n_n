@@ -5,6 +5,14 @@ public class UserDto {
     private int seq;
     private String name;
 
+    public UserDto() {
+    }
+
+    public UserDto(int seq, String name) {
+        this.seq = seq;
+        this.name = name;
+    }
+
     public int getSeq() {
         return seq;
     }
