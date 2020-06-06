@@ -14,6 +14,7 @@ public class UserService {
     private UserMapper usermapper;
 
     public List<UserDto> selectList(){
+        System.out.println("서비스단");
         return usermapper.selectList();
     }
 }
